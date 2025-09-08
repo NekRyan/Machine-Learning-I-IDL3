@@ -30,8 +30,6 @@ ________________________________________
     - Machine_Learning_I_IDL3.ipynb # Notebook con fases 1-9
 - results/
     - resultados_cv.csv             # Resultados de validación cruzada
-    - resultados_predicciones.csv   # Predicciones de modelos optimizados
-    - graficos/                     # Gráficas ROC, PR, importancia de variables, etc.
     - README.md                     # Documentación del proyecto
 - documentación
     - CPP1_Jimenez_Nek.docx         # Archivo word con conceptos clave
