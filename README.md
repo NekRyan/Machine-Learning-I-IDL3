@@ -13,6 +13,7 @@ El trabajo incluye todas las fases del pipeline de aprendizaje automático:
 6.	Análisis de sesgo y varianza.
 7.	Visualizaciones y análisis estadístico.
 8.	Conclusiones y recomendaciones.
+9.  Anexos
 ________________________________________
 # 2. Tecnologías utilizadas
 - Python 3
@@ -24,16 +25,16 @@ ________________________________________
 ________________________________________
 # 3. Estructura del repositorio
 - data/
-    - CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
+    - CAP600_data_limpia.csv        # Dataset utilizado Enapres Cap. 600
 - notebooks/
-    - IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
-- src/
-    - modelo_enapres.py            # Código en formato .py
+    - Machine_Learning_I_IDL3.ipynb # Notebook con fases 1-9
 - results/
-    - metricas_cv.csv              # Resultados de validación cruzada
-    - resultados_predicciones.csv  # Predicciones de modelos optimizados
-    - graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
-    - README.md                    # Documentación del proyecto
+    - resultados_cv.csv             # Resultados de validación cruzada
+    - resultados_predicciones.csv   # Predicciones de modelos optimizados
+    - graficos/                     # Gráficas ROC, PR, importancia de variables, etc.
+    - README.md                     # Documentación del proyecto
+- documentación
+    - CPP1_Jimenez_Nek.docx         # Archivo word con conceptos clave
 ________________________________________
 # 4. Resultados principales
 - Los modelos de ensamble (Random Forest y XGBoost) alcanzaron las mejores métricas de desempeño.
