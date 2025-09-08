@@ -1,5 +1,5 @@
 
-## Modelo Predictivo de Cambio de Hábitos por Temor a la Inseguridad
+# Modelo Predictivo de Cambio de Hábitos por Temor a la Inseguridad
 # ENAPRES 2023 – Capítulo 600
 
 # 1. Descripción
@@ -23,13 +23,13 @@ ________________________________________
 - Jupyter Notebook / Google Colab
 ________________________________________
 # 3. Estructura del repositorio
-data/
+- data/
     CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
-notebooks/
+- notebooks/
     IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
-src/
+- src/
     modelo_enapres.py            # Código en formato .py
-results/
+- results/
     metricas_cv.csv              # Resultados de validación cruzada
     resultados_predicciones.csv  # Predicciones de modelos optimizados
     graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
@@ -56,9 +56,7 @@ ________________________________________
 - Entorno virtual
 
 python -m venv_Machine-Learning-I-IDL3
-
 venv_Machine-Learning-I-IDL3\Scripts\activate.bat
-
 pip install -r requirements.txt
 
 - Clonar repositorio
