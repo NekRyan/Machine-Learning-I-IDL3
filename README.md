@@ -1,5 +1,6 @@
-Modelo Predictivo de Cambio de Hábitos por Temor a la Inseguridad
-ENAPRES 2023 – Capítulo 600
+
+## Modelo Predictivo de Cambio de Hábitos por Temor a la Inseguridad
+# ENAPRES 2023 – Capítulo 600
 
 # 1. Descripción
 Este proyecto desarrolla un modelo de Machine Learning para predecir el cambio de hábitos de los ciudadanos por temor a la inseguridad en Lima Metropolitana, utilizando la base de datos de la Encuesta Nacional de Programas Presupuestales (ENAPRES 2023, Capítulo 600).
@@ -22,17 +23,17 @@ ________________________________________
 - Jupyter Notebook / Google Colab
 ________________________________________
 # 3. Estructura del repositorio
-├── data/
-│   └── CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
-├── notebooks/
-│   └── IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
-├── src/
-│   └── modelo_enapres.py            # Código en formato .py
-├── results/
-│   ├── metricas_cv.csv              # Resultados de validación cruzada
-│   ├── resultados_predicciones.csv  # Predicciones de modelos optimizados
-│   └── graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
-└── README.md                        # Documentación del proyecto
+data/
+    CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
+notebooks/
+    IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
+src/
+    modelo_enapres.py            # Código en formato .py
+results/
+    metricas_cv.csv              # Resultados de validación cruzada
+    resultados_predicciones.csv  # Predicciones de modelos optimizados
+    graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
+    README.md                        # Documentación del proyecto
 ________________________________________
 # 4. Resultados principales
 - Los modelos de ensamble (Random Forest y XGBoost) alcanzaron las mejores métricas de desempeño.
