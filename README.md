@@ -24,16 +24,16 @@ ________________________________________
 ________________________________________
 # 3. Estructura del repositorio
 - data/
-    CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
+    - CAP600_data_limpia.csv       # Dataset utilizado Enapres Cap. 600
 - notebooks/
-    IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
+    - IDL3_Modelo_Predictivo.ipynb # Notebook con fases 1-9
 - src/
-    modelo_enapres.py            # Código en formato .py
+    - modelo_enapres.py            # Código en formato .py
 - results/
-    metricas_cv.csv              # Resultados de validación cruzada
-    resultados_predicciones.csv  # Predicciones de modelos optimizados
-    graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
-    README.md                        # Documentación del proyecto
+    - metricas_cv.csv              # Resultados de validación cruzada
+    - resultados_predicciones.csv  # Predicciones de modelos optimizados
+    - graficos/                    # Gráficas ROC, PR, importancia de variables, etc.
+    - README.md                    # Documentación del proyecto
 ________________________________________
 # 4. Resultados principales
 - Los modelos de ensamble (Random Forest y XGBoost) alcanzaron las mejores métricas de desempeño.
